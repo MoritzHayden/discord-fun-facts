@@ -13,7 +13,7 @@
 
 ## About
 
-This repository fetches a fun fact from a [facts API](https://api-ninjas.com/api/facts) and posts it to a Discord server via webhook.
+This repository fetches fun facts from a [facts API](https://api-ninjas.com/api/facts) and posts them to a Discord server via webhook.
 
 ## Deployment
 
