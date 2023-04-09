@@ -1,0 +1,20 @@
+# This workflow runs the process and posts
+name: Execute Script
+
+on:
+  schedule:
+    - cron: "0 12,24 * * *"
+
+jobs:
+  execute-script:
+    name: Execute Script
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      - name: Run Python Script
+        run: python main.py
+        shell: bash
