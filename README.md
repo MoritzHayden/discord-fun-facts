@@ -1,6 +1,6 @@
 # Discord Fun Facts
 
-[![Execute Script](https://github.com/MoritzHayden/discord-fun-facts/actions/workflows/execute-script.yml/badge.svg?branch=main)](https://github.com/MoritzHayden/discord-fun-facts/actions/workflows/execute-script.yml)
+[![Execute Script](https://github.com/MoritzHayden/discord-fun-facts/actions/workflows/execute-script.yml/badge.svg)](https://github.com/MoritzHayden/discord-fun-facts/actions/workflows/execute-script.yml)
 
 ## Table of Contents
 
