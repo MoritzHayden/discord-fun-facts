@@ -13,7 +13,7 @@
 
 ## About
 
-This repository fetches fun facts from a [facts API](https://api-ninjas.com/api/facts) and posts them to a Discord server via webhook.
+This repository fetches fun facts from the [API Ninjas Facts API](https://api-ninjas.com/api/facts) and posts them to a Discord server via webhook at regular intervals.
 
 ## Deployment
 
@@ -21,7 +21,7 @@ This process is executed via a scheduled cron job every day at 00:00 UTC and 12:
 
 ## Contributing
 
-Please open a [pull request](https://github.com/MoritzHayden/discord-fun-facts/pulls) with your changes.
+Contributions are welcome! Please open a [pull request](https://github.com/MoritzHayden/discord-fun-facts/pulls) with your changes.
 
 ## Legal
 
