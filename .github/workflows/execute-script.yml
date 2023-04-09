@@ -4,7 +4,7 @@ name: Execute Script
 on:
   push:
   schedule:
-    - cron: "0 12,24 * * *"
+    - cron: "0 0,12 * * *"
 
 jobs:
   execute-script:
