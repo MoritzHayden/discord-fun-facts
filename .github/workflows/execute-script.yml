@@ -9,6 +9,9 @@ jobs:
   execute-script:
     name: Execute Script
     runs-on: ubuntu-latest
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL}}
+      FACTS_API_KEY: ${{ secrets.FACTS_API_KEY}}
 
     steps:
       - name: Checkout Repo
