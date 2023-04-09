@@ -2,7 +2,6 @@
 name: Execute Script
 
 on:
-  push:
   schedule:
     - cron: "0 0,12 * * *"
 
