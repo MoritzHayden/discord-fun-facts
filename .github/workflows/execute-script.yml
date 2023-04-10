@@ -1,4 +1,4 @@
-# This workflow runs the process and posts
+# This workflow executes the main Python script
 name: Execute Script
 
 on:
