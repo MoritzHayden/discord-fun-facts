@@ -29,12 +29,8 @@ def post_discord_webhook(facts):
     print("INFO: Posting to Discord webhook")
     webhook = SyncWebhook.from_url(discord_webhook_url)
     embed = discord.Embed(color=2695771)
-    for i, fact in enumerate(facts):
-        if len(facts) == 1:
-            field_name = "Fun Fact"
-        else:
-            field_name = f'Fun Fact #{i + 1}'
-        embed.add_field(name=field_name, value=fact, inline=False)
+    for fact in facts:
+        embed.add_field(name='Did You Know?', value=fact, inline=False)
     webhook.send(embed=embed)
     print("SUCCESS: Posted to Discord webhook")
 
